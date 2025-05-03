@@ -15,8 +15,7 @@ namespace Negocio
             UsuarioPersistencia usuarioPersistencia = new UsuarioPersistencia();
 
             Credencial credencial = usuarioPersistencia.login(usuario);
-
-            if (credencial.Contrasena.Equals(password))
+            if (credencial != null && credencial.Contrasena.Equals(password))
             {
                 return credencial;
             }
