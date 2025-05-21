@@ -21,11 +21,17 @@ namespace TemplateTPCorto
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
+            /*
             String usuario = txtUsuario.Text;
             String password = txtPassword.Text;
 
             LoginNegocio loginNegocio = new LoginNegocio();
             Credencial credencial = loginNegocio.login(usuario, password);
+            */
+
+            FormVentas formVentas = new FormVentas();
+            this.Hide();
+            formVentas.ShowDialog();
 
         }
     }
