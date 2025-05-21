@@ -49,6 +49,7 @@
     <Compile Include="ProductoPersistencia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioPersistencia.cs" />
+    <Compile Include="VentaPersistencia.cs" />
     <Compile Include="WebService\Utils\WebHelper.cs" />
   </ItemGroup>
   <ItemGroup>
