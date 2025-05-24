@@ -11,6 +11,8 @@ namespace Persistencia
 {
     public class VentaPersistencia
     {
+        private Guid idUsuario = new Guid("0cdbc5a5-69d9-4ab8-8cb3-9932ce33f54a");
+
         /*
         public bool agregarVenta(venta)
         {
